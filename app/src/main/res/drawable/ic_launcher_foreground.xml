@@ -1,0 +1,79 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Red de cables de conexión del gorro EEG -->
+    <path
+        android:pathData="M54,34 L54,78"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1F4E5B" />
+        
+    <path
+        android:pathData="M32,56 L76,56"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1F4E5B" />
+        
+    <path
+        android:pathData="M38.5,40.5 L69.5,71.5"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1F4E5B" />
+        
+    <path
+        android:pathData="M38.5,71.5 L69.5,40.5"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1F4E5B" />
+
+    <!-- Contorno de la Cabeza -->
+    <path
+        android:pathData="M54,24 C71.67,24 86,38.33 86,56 C86,73.67 71.67,88 54,88 C36.33,88 22,73.67 22,56 C22,38.33 36.33,24 54,24 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#4DEEEA"
+        android:fillColor="#00000000" />
+
+    <!-- Nariz apuntando hacia adelante para orientación visual -->
+    <path
+        android:pathData="M54,18 L48,24 L60,24 Z"
+        android:fillColor="#4DEEEA" />
+
+    <!-- Oreja Izquierda -->
+    <path
+        android:pathData="M22,48 C17,48 17,64 22,64"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4DEEEA"
+        android:fillColor="#00000000" />
+
+    <!-- Oreja Derecha -->
+    <path
+        android:pathData="M86,48 C91,48 91,64 86,64"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4DEEEA"
+        android:fillColor="#00000000" />
+
+    <!-- Nodo Central Cz (Vertex) -->
+    <path
+        android:pathData="M54,56 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"
+        android:fillColor="#00FFCC" />
+        
+    <!-- Nodo Frontal Fz -->
+    <path
+        android:pathData="M54,34 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#00FFCC" />
+        
+    <!-- Nodo Parietal Pz -->
+    <path
+        android:pathData="M54,78 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#00FFCC" />
+        
+    <!-- Nodo Central Izquierdo C3 -->
+    <path
+        android:pathData="M32,56 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#00FFCC" />
+        
+    <!-- Nodo Central Derecho C4 -->
+    <path
+        android:pathData="M76,56 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#00FFCC" />
+        
+</vector>

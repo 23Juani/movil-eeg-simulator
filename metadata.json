@@ -1,0 +1,6 @@
+{
+  "name": "EEG 3D",
+  "description": "Una aplicación interactiva en 3D para aprender sobre las ubicaciones del sistema de electrodos 10-20 de electroencefalografía en la cabeza.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
